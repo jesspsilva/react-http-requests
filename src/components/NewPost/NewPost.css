@@ -1,0 +1,54 @@
+.NewPost {
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #476a6f;
+    box-shadow: 0 2px 6px #476a6f;
+    text-align: center;
+}
+
+.NewPost label {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+.NewPost input,
+.NewPost textarea,
+.NewPost select {
+    display: block;
+    width: 60%;
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-radius: 5px;
+    outline: none;
+    font: inherit;
+    margin: auto;
+}
+
+.NewPost button {
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font: inherit;
+    border: 1px solid #519e8a;
+    background-color: transparent;
+    color: #519e8a;
+    cursor: pointer;
+    outline: none;
+}
+
+.NewPost button:hover,
+.NewPost button:active {
+    color: white;
+    background-color: #519e8a;
+}
+
+@media (max-width: 720px) {
+    .NewPost input,
+    .NewPost textarea,
+    .NewPost select {
+        width: 100%;
+    }
+}
